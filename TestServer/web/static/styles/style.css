@@ -1,0 +1,38 @@
+.filters {
+    display: flex;
+}
+
+.card {
+    width: 30rem;
+    margin-top: 10px;
+}
+
+.isDisabled {
+    color: currentColor;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.inputDisabled {
+    border: none;
+    text-align: center;
+    background-color: inherit;
+    color: black;
+}
+
+.inputEnabled {
+    text-align: center;
+    color: black;
+}
+
+tr, td, th {
+    text-align: center;
+}
+
+td {
+    vertical-align: inherit !important;
+}
+
+.checks * {
+    padding: 10px;
+}
